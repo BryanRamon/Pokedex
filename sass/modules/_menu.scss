@@ -1,0 +1,105 @@
+.menu{
+    height: 800px;
+    width: 100%;
+    padding: 0;
+    //border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    &__center{
+        height: 80%;
+        width: 30%;
+        border: 1px solid white;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(217, 60, 32);
+        border-radius: 25px;
+        &__screen{
+            //border: 1px solid white;
+            height: 60%;
+            width: 80%;
+            background-color: rgb(220, 202, 202);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__box{
+                //border: 1px solid white;
+                height: 80%;
+                width: 80%;
+                flex-direction: column;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    color:black;
+                    text-transform: uppercase;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+                p{
+                    color:black;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-transform: uppercase;
+                }
+                span{
+                    color:black;
+                }
+                img{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                height: 200px;
+                width: 250px;
+                }
+            }
+        }
+        &__icons{
+            //border: 1px solid white;
+            height: 10%;
+            width: 80%;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(152, 135, 135);
+            &--off{
+                margin-left: 2rem;
+                height: 40px;
+                width: 40px;
+                background-color: rgb(243, 38, 38);
+                i{
+                    color: white;
+                }
+            }
+            &--bars{
+                margin-right: 2rem;
+                height: 40px;
+                width: 40px;
+            }
+        }
+        &__search{
+            margin-top: 2rem;
+            height: 10%;
+            width: 80%;
+            input{
+                margin-left: 1.4rem;
+                margin-top: 5px;
+                height: 40px;
+                width: 250px;
+                border-radius: 5px;
+            }
+            button{
+                margin-top:5px;
+                height: 40px;
+                width: 50px;
+                border-radius: 10px;
+                background-color: rgb(117, 22, 241);
+                i{
+                    font-size: 1.2rem;
+                    color: white;
+                }
+            }
+        }
+    }
+}

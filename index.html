@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__img">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="nav__enlaces">
+                <a href="#">Pokedex</a>
+                <a href="#">Personajes</a>
+                <a href="#">Historia Pokemon</a>
+                <a href="#">Foro de Discusion</a>
+        </div>
+    </nav>
+    <menu class="menu">
+        <div class="menu__center">
+            <div class="menu__center__screen">
+                <div class="menu__center__screen__box">
+                    <h2>¿pokemon?</h2>
+                    <img src="img/quienEsElPokemon.jpg" alt="">
+                    <p>Habilidad: <span>¿?</span></p>
+                </div>
+            </div>
+            <div class="menu__center__icons">
+                <button class="menu__center__icons--off"><i class="fa-solid fa-power-off"></i></button>
+                <button class="menu__center__icons--bars"><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="menu__center__search">
+                <input type="text" placeholder="Nombre del Pokemon" class="nav__search--input">
+                <button class="nav__search--btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+    </menu>
+    <script src="js/api.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(71, 99, 255);
+    //border: 1px solid white;
+    &__img{
+        //border: 2px solid black;
+        width: 40%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        img{
+            margin: 2rem;
+            height: 100px;
+            width: 280px;
+        }
+    }
+    &__enlaces{
+        //border: 1px solid white;
+        height: 120px;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        a{
+            padding: 20px 20px;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        a:hover{
+            border: 1px solid white;
+            background-color: rgb(220, 53, 53);
+            border-radius: 10px;
+        }
+    }
+}

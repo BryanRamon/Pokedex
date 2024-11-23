@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(62, 21, 195);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(71, 99, 255);
+}
+.nav__img {
+  width: 40%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+.nav__img img {
+  margin: 2rem;
+  height: 100px;
+  width: 280px;
+}
+.nav__enlaces {
+  height: 120px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.nav__enlaces a {
+  padding: 20px 20px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav__enlaces a:hover {
+  border: 1px solid white;
+  background-color: rgb(220, 53, 53);
+  border-radius: 10px;
+}
+
+.menu {
+  height: 800px;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.menu__center {
+  height: 80%;
+  width: 30%;
+  border: 1px solid white;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(217, 60, 32);
+  border-radius: 25px;
+}
+.menu__center__screen {
+  height: 60%;
+  width: 80%;
+  background-color: rgb(220, 202, 202);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__center__screen__box {
+  height: 80%;
+  width: 80%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__center__screen__box h2 {
+  color: black;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.menu__center__screen__box p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+.menu__center__screen__box span {
+  color: black;
+}
+.menu__center__screen__box img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 200px;
+  width: 250px;
+}
+.menu__center__icons {
+  height: 10%;
+  width: 80%;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(152, 135, 135);
+}
+.menu__center__icons--off {
+  margin-left: 2rem;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(243, 38, 38);
+}
+.menu__center__icons--off i {
+  color: white;
+}
+.menu__center__icons--bars {
+  margin-right: 2rem;
+  height: 40px;
+  width: 40px;
+}
+.menu__center__search {
+  margin-top: 2rem;
+  height: 10%;
+  width: 80%;
+}
+.menu__center__search input {
+  margin-left: 1.4rem;
+  margin-top: 5px;
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+}
+.menu__center__search button {
+  margin-top: 5px;
+  height: 40px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: rgb(117, 22, 241);
+}
+.menu__center__search button i {
+  font-size: 1.2rem;
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */
